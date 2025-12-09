@@ -1,0 +1,2 @@
+sudo nano /etc/udev/rules.d/10-local.rules
+ACTION=="add", SUBSYSTEMS=="usb", KERNELS=="1-1.1:1.0", SYMLINK+="TBW_0"
